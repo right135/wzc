@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="initial-scale=1.0">
@@ -9,18 +8,29 @@
         body {
             margin: 0;
             padding: 0;
-            background: url(photo.jpg) no-repeat;
-            background-size: cover;
+			height: 100%;
+            /* background: url(photo.jpg) no-repeat; */
+			background-image: url(./img/xg.jpg);
+            /* background-size: cover; */
+			background-repeat: no-repeat;
+			background-position: center -80px;
+			/* background-clip: content-box; */
+			background-size: cover;
+			/* background: fixed; */
+			background-attachment: fixed;
+			min-height: 100vh;
         }
 
         .box {
-            color: rgb(6, 173, 151);
-            width: 450px;
+			
+            color: rgb(255, 255, 127);
+            width: 600px;
             background: rgba(0, 0, 0, 0.4);
             padding: 40px;
             text-align: center;
             margin: auto;
             margin-top: 5%;
+			/* height: 1000px; */
             font-family: 'Century Gothic', sans-serif;
         }
 
@@ -58,13 +68,15 @@
 
 <body>
     <div class="box">
-        <img src="xg.jpg" alt="" class="box-img">
+        <!-- <img src="xg.jpg" alt="" class="box-img"> -->
         <h1 class="name">Zhengchao Wang</h1>
         <h2>right135</h2>
+		<br>
         <h3>Welcome to my personal website!</h3>
-        <h3>If you want to know more about me,please click this</h3>
-        <a href="right135.html" class="one">myself</a>
-    </div>
+        <br>
+		<h3>If you want to know more about me,please click this</h3>
+        <a href="right135.html" class="one">myself</a> 
+	</div>
 </body>
 
 </html>
