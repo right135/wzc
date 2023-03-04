@@ -2,73 +2,123 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title>实验室器材管理系统</title>
+		<title>个人简历</title>
 		<style type="text/css">
+			.tab2{
+				margin-left: 40px;
+			}
+			.t1{
+				width: 200px;
+			}
+			.tab1{
+				width: 100%;
+			}
+			.tab1 td{
+				padding-left: 50px;
+			}
+			table{
+				width: 10px;
+			}
+			.tab{
+				font-weight: bold;
+				font-size: large;
+			}
 			body{
-				background-color: #E6C986;
-				height: 100%;
-			}
-			/* .all{
-				width: 100%;
-				height: 100%; 
-				background-image: url(img/xg.jpg);
-				background-size:cover;
-				background-position: top left;
-				background-position: 0px 0px;
-				background-position: 100% 100%;
-			} */
-			.bt{
-				margin-top: 50px;
-			}
-			.bt button{
-				display: block;
-				margin:30px auto;
-				position: relative;
-				width: 150px;
-				height: 60px;
-				border-radius: 50px;
-				border: 1px solid #fff;
-				background-color: #E9E4E0;
-				color: blue;
-				font-size: 20px;
-				/* margin-bottom: 30px; */
-			}
-			h1{
-				margin-top: 50px;
-			}
-			.back-img{
-				position: fixed;
-				top: 0;
-				left: 0;
-				width: 100%;
-				height: 100%;
-				z-index: -10;
-				object-fit: cover;
-			}
-			.maker{
+				width: 800px;
 				position: absolute;
-				right: 0;
+				left: 20%;
+			}
+			ul{
+				margin-top: 5px;
+				margin-bottom: 5px;
+			}
+			p{
+				margin-top: 5px;
+				margin-bottom: 0px;
+			}
+			.d5{
+				margin-bottom: 50px;
+			}
+			.d5 p{
+				margin-top: 7px;
+			}
+			img{
+				width: 15%;	
+				position: absolute;
+				right:7%;
+				top:0%;
 			}
 		</style>
 	</head>
 	<body>
-		<div class="all">
-			<h1 align="center">实验室器材管理系统</h1>
-			<div class="bt" align="center">
-				<button type="button">实验器材介绍</button>
-				<br>
-				<button type="button">实验器材录入</button>
-				<br>
-				<button type="button">实验器材查看</button>
-				<br>
-				<button type="button">实验器材识别</button>
-			</div>
-			<img src="img/xg.jpg" class="back-img">
-			<div class="maker">
-				<p>Producer:right135</p>
-				<br>
-				<p>Email:2020012220@nwafu.edu.cn</p>
-			</div>
+		<h1 align="center">个人简历</h1>
+		<div class="d1" align="center">
+			TEL:19591282322 | Email:2020012220@nwafu.edu.cn
+			<br> 
+			男  |  预备党员  | 山东省青岛市
+			<img src="wzc.jpg" alt="picture" >
+		</div>
+		<div class="d2">
+			<p class="tab">教育背景</p>
+			<hr>
+			<table border="0" class="tab1">
+				<tr class="">
+					<td>西北农林科技大学</td>
+					<td>信息工程学院</td>
+					<td>软件工程</td>
+					<td>2020.09-2024.07</td>
+				</tr>
+			</table>
+				
+			
+			<table class="t1" width="200px">
+				<ul>
+					<li><span>专业排名：7/109</span><span class="tab2">学分成绩：87.99</span></li>
+					<li><span>英语水平：CET-4（523）、CET-6（433）</span></li>
+					<li><span>荣誉奖项：校长奖学金、多次校级一等奖学金、优秀共青团干部、大学生社会实践先进个人</span></li>
+					<li>竞赛获奖：2022ICPC第十届陕西省省赛银牌、2022团体程序设计天梯赛全国总决赛团队三等奖、2022RoboCom机器人开发者大赛CAIP编程设计全国总决赛三等奖、2022年第四届全国高校计算机能力挑战赛C++组全国一等奖、2022年第十三届蓝桥杯陕西赛区C/C++程序设计大学A组二等奖等</li>
+				</ul>
+			</table>
+		</div>
+		<div class="d3">
+			<p class="tab">科研经历</p>
+			<hr>
+			<table border="0" >
+				<ul>
+					<li>
+						2022 年 10 月至 2023 年 9月主持校级大学生创新训练项目《基于轻量化深度学习模型的小麦赤霉病登记识别算法》，参与包括文献阅读、信息收集、模型构建、模型优化、实验对比、论文撰写在内的项目全过程。项目创新点在：
+						<dl>
+							<dt>（1）搭建小麦赤霉病不同病变程度的数据集FHBSGD</dt>
+							<dt>（2）在传统YOLOX模型的基础上引入ghost卷积实现模型轻量化；</dt>
+							<dt>（3）在CSPNet主干网络中引入SimAM注意力机制，在不增加模型参数的基础上，提升模型精度；</dt>
+							<dt>（4）使用EIoU损失函数替换IoU损失函数，加速模型收敛速度。</dt>
+						</dl>
+					</li>
+					<li>
+						2023年1月，论文《GSEYOLOX-s: An Improved Lightweight Network for Identifying the Severity of Wheat Fusarium Head Blight》
+						被Agronomy期刊录用（SCI已索引）。
+					</li>
+				</ul>
+			</table>
+			
+		</div>
+		<div class="d4">
+			<p class="tab">校园实践</p>
+			<hr>
+			<ul>
+				<li>担任软件工程2003班长</li>
+				<li>担任计算机类2107班班主任助理</li>
+			</ul>
+		</div>
+		<div class="d5">
+			<p class="tab">个人技能</p>
+			<hr>
+			<ul>
+				<li>熟悉深度学习，具有CV领域目标检测、图像识别等研究经验；阅读过相关领域经典论文</li>
+				<li>熟悉C/C++、Python、Java等编程语言，扎实的编程基础及面向对象编程思想，有良好的编码习惯</li>
+				<li>拥有良好的中英文阅读和写作能力</li>
+				<li>熟练掌握SSM框架企业级应用开发，熟悉SpringMVC应用框架</li>
+			</ul>
 		</div>
 	</body>
 </html>
