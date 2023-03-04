@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta charset="utf-8">
+		<meta charset="utf-16">
 		<title>个人简历</title>
 		<style type="text/css">
 			.tab2{
@@ -25,7 +25,7 @@
 			}
 			body{
 				width: 800px;
-				position: absolute;
+				position: absolute;	
 				left: 20%;
 			}
 			ul{
@@ -33,20 +33,46 @@
 				margin-bottom: 5px;
 			}
 			p{
-				margin-top: 5px;
-				margin-bottom: 0px;
+				margin-top: 6px;
+				margin-bottom: 2px;
 			}
 			.d5{
-				margin-bottom: 50px;
+				/* margin-bottom: 50px; */
 			}
 			.d5 p{
-				margin-top: 7px;
+				margin-top: 10px;
+			}
+			.d4 p{
+				margin-top: 10px;
+			}	.d3 p{
+				margin-top: 10px;
+			}	
+			.d2 p{
+				margin-top: 10px;
+			}	
+			.d1 p{
+				margin-top: 10px;
+			}	
+			.d6 p{
+				margin-top: 10px;
+			}	
+			li
+			{
+				margin: 4px 0px;
 			}
 			img{
-				width: 15%;	
+				width: 100px;	
 				position: absolute;
-				right:7%;
-				top:0%;
+				left:80%;
+				top:10px;
+			}
+			hr{
+				background-color: #000000;
+				height:1.5px; border:none;
+			}
+				
+			.d6 p{
+				margin-top: 2px;
 			}
 		</style>
 	</head>
@@ -56,7 +82,7 @@
 			TEL:19591282322 | Email:2020012220@nwafu.edu.cn
 			<br> 
 			男  |  预备党员  | 山东省青岛市
-			<img src="./wzc.jpg" alt="picture" >
+			<img src="wzc.jpg" alt="picture" >
 		</div>
 		<div class="d2">
 			<p class="tab">教育背景</p>
@@ -75,10 +101,20 @@
 				<ul>
 					<li><span>专业排名：7/109</span><span class="tab2">学分成绩：87.99</span></li>
 					<li><span>英语水平：CET-4（523）、CET-6（433）</span></li>
-					<li><span>荣誉奖项：校长奖学金、多次校级一等奖学金、优秀共青团干部、大学生社会实践先进个人</span></li>
-					<li>竞赛获奖：2022ICPC第十届陕西省省赛银牌、2022团体程序设计天梯赛全国总决赛团队三等奖、2022RoboCom机器人开发者大赛CAIP编程设计全国总决赛三等奖、2022年第四届全国高校计算机能力挑战赛C++组全国一等奖、2022年第十三届蓝桥杯陕西赛区C/C++程序设计大学A组二等奖等</li>
+					<li><span>荣誉奖项：校长奖学金、多次校级一等奖学金、优秀共青团员（校级）、优秀共青团干部（校级）、大学生社会实践先进个人（校级）、大学生社会实践标兵（校级）</span></li>
 				</ul>
 			</table>
+		<div class="d7">
+			<p class="tab">竞赛情况</p>
+			<hr>
+			<ul>
+				<li>2021年ACM-ICPC陕西省大学生程序设计竞赛铜牌、2022年ACM-ICPC陕西省大学生程序设计竞赛银牌</li>
+				<li>2022团体程序设计天梯赛全国总决赛团队三等奖</li>
+				<li>2022RoboCom机器人开发者大赛CAIP编程设计陕西省赛一等奖、全国总决赛三等奖</li>
+				<li>2022年第四届全国高校计算机能力挑战赛C++组全国一等奖</li>
+				<li>2022年第十三届蓝桥杯陕西赛区C/C++程序设计大学A组二等奖</li>
+			</ul>
+		</div>
 		</div>
 		<div class="d3">
 			<p class="tab">科研经历</p>
@@ -86,7 +122,7 @@
 			<table border="0" >
 				<ul>
 					<li>
-						2022 年 10 月至 2023 年 9月主持校级大学生创新训练项目《基于轻量化深度学习模型的小麦赤霉病登记识别算法》，参与包括文献阅读、信息收集、模型构建、模型优化、实验对比、论文撰写在内的项目全过程。项目创新点在：
+						2022 年 10 月至 2023 年 9月主持校级大学生创新训练项目《基于轻量化深度学习模型的小麦赤霉病等级识别算法》，参与包括文献阅读、信息收集、模型构建、模型优化、实验对比、论文撰写在内的项目全过程。项目创新点在：
 						<dl>
 							<dt>（1）搭建小麦赤霉病不同病变程度的数据集FHBSGD</dt>
 							<dt>（2）在传统YOLOX模型的基础上引入ghost卷积实现模型轻量化；</dt>
@@ -98,9 +134,19 @@
 						2023年1月，论文《GSEYOLOX-s: An Improved Lightweight Network for Identifying the Severity of Wheat Fusarium Head Blight》
 						被Agronomy期刊录用（SCI已索引）。
 					</li>
+					
 				</ul>
 			</table>
-			
+		</div>
+		<div class="d6">
+			<p class="tab">项目经历</p>
+			<hr>
+			<ul>
+				<li>
+					2023年3月，基于SSM设计图书馆图书管理系统，使用Java开发语言，使用IDEA进行代码编写，借助Maven、Spring、SpringMVC、MyBatis、JSP等技术，通过SSM框架实现，实现了图书馆图书管理的相关操作，
+					该系统是一款通用性极强的图书管理系统，前端使用Web技术进行美化。系统框架实现了MVC框架融入JavaBean对象封装类，简洁代码，方便后期维护。
+				</li>
+			</ul>
 		</div>
 		<div class="d4">
 			<p class="tab">校园实践</p>
